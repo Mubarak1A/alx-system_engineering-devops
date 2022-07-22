@@ -6,7 +6,7 @@
 
 i=1
 while [[ i -le 20 ]]; do
-	CASE $i in
+	case $i in
 		4)
 			echo -n "i \n bad luck form china"
 			;;
