@@ -5,19 +5,20 @@
 #displays 17 and then bad luck from Italy for the 17th loop iteration
 
 i=1
-while [[ i -le 20 ]]; do
-	case $i in
-		4)
-			echo -n "i \n bad luck form china"
-			;;
-		9)
-			echo -n "i \n bad luck from japan"
-			;;
-		17)
-			echo -n "i \n bad luck from italy"
-			;;
-		*)
-			echo -n "i"
-			;;
-	esac
+while [[ i -le 20 ]];
+        do
+	        case $i in
+		        4)
+			        echo -n "i \n bad luck form china"
+			        ;;
+		        9)
+			        echo -n "i \n bad luck from japan"
+			        ;;
+		        17)
+			        echo -n "i \n bad luck from italy"
+			        ;;
+		        *)
+			        echo -n "i"
+			        ;;
+	        esac
 done
