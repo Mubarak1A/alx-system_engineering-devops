@@ -5,7 +5,7 @@ This project contains very basic Puppet manifests.
 
 Table of contents
 
-Files                                  Description
+Files                 &                 Description
 
 0-create_a_file.pp           Puppet manifest that creates a file in the /tmp directory
 
