@@ -24,3 +24,7 @@ Requirements, your post must cover:
     ° Web server
     ° Application server
     ° Database
+
+Publish your blog post on Medium or LinkedIn; share the URL of your blog post in your answer file and in the field below.
+
+Please, remember that these blogs must be written in English to further your technical ability in a variety of settings.
