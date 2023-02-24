@@ -9,6 +9,7 @@ while [[ $i -le 10 ]];
 	        if [[ $i == 9 ]];
 	                then
 		                echo "hi"
+				echo "Best School"
 	        else
 		        echo "Best School"
 	        fi
