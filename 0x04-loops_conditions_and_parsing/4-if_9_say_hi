@@ -4,9 +4,9 @@
 #Using while loop
 
 i=0
-while [[ i -le 10]];
+while [[ $i -le 10 ]];
         do
-	        if [[ $i == 9]];
+	        if [[ $i == 9 ]];
 	                then
 		                echo "hi"
 	        else
