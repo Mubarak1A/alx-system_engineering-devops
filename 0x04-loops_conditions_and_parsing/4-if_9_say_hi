@@ -3,7 +3,7 @@
 #display hi at the 9th iteration
 #Using while loop
 
-i=0
+i=1
 while [[ $i -le 10 ]];
         do
 	        if [[ $i == 9 ]];
