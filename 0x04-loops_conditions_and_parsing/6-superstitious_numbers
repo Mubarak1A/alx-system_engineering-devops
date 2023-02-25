@@ -9,13 +9,16 @@ while [[ i -le 20 ]];
         do
 	        case $i in
 		        4)
-			        echo "$i \n bad luck form china"
+			        echo "$i"
+                                echo "bad luck form china"
 			        ;;
 		        9)
-			        echo "$i \n bad luck from japan"
+			        echo "$i"
+                                echo "bad luck form japan"
 			        ;;
 		        17)
-			        echo "$i \n bad luck from italy"
+			        echo "$i"
+                                echo "bad luck form italy"
 			        ;;
 		        *)
 			        echo "$i"
