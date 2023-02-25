@@ -7,7 +7,7 @@
 i=1
 while [[ $i -le 20 ]];
         do
-	        case $i in
+                case $i in
 		        4)
 			        echo "$i"
                                 echo "bad luck form China"
@@ -23,6 +23,6 @@ while [[ $i -le 20 ]];
 		        *)
 			        echo "$i"
 			        ;;
-	        esac
+                esac
         (( i += 1 ))
 done
