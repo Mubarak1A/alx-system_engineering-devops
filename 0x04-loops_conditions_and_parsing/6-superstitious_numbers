@@ -9,16 +9,17 @@ while [[ i -le 20 ]];
         do
 	        case $i in
 		        4)
-			        echo -n "i \n bad luck form china"
+			        echo "$i \n bad luck form china"
 			        ;;
 		        9)
-			        echo -n "i \n bad luck from japan"
+			        echo "$i \n bad luck from japan"
 			        ;;
 		        17)
-			        echo -n "i \n bad luck from italy"
+			        echo "$i \n bad luck from italy"
 			        ;;
 		        *)
-			        echo -n "i"
+			        echo "$i"
 			        ;;
 	        esac
+                (( i += 1 ))
 done
