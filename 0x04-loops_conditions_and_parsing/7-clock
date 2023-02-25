@@ -10,9 +10,9 @@ while [[ $i -le 12 ]];
         do
 	        echo "Hour: $i"
 	        while [[ $j -le 59 ]];
-                do
-		        echo "$j"
-                        (( j += 1 ))
+                        do
+		                echo "$j"
+                                (( j += 1 ))
 	        done
                 (( i += 1 ))
 done
