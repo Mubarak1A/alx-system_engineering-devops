@@ -11,15 +11,12 @@ while [[ i -le 20 ]];
 		        4)
 			        echo "$i"
                                 echo "bad luck form china"
-			        ;;
 		        9)
 			        echo "$i"
-                                echo "bad luck form japan"
-			        ;;
+                                echo "bad luck form japan
 		        17)
 			        echo "$i"
                                 echo "bad luck form italy"
-			        ;;
 		        *)
 			        echo "$i"
 			        ;;
