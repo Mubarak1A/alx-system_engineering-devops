@@ -1,9 +1,8 @@
-This project is an introduction to Configuration Management,
-as part of the first year curriculum of Holberton School.
+This project is an introduction to Configuration Management.
 This project contains very basic Puppet manifests.
 
 
-Table of contents
+# Table of contents
 
 Files                 &                 Description
 
