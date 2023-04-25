@@ -2,10 +2,10 @@
 # transfers a file from a client to a server with scp
 
 #Assign parameters to varibles
-file_path = $1
-server_ip = $2
-username = $3
-ssh_key_path = $4
+#file_path = $1
+#server_ip = $2
+#username = $3
+#ssh_key_path = $4
 
 #check if parameters is less than 3
 if [ "$#" -lt 3 ]; then
@@ -13,10 +13,10 @@ if [ "$#" -lt 3 ]; then
 
 #check if parameter is greater 3 but less than 4
 elif [ "$#" -lt 4 ]; then
-	scp -o StrictHostKeyChecking=no $file_path $username@$sever_ip:~/
+	scp -o StrictHostKeyChecking=no "$1"  "$3"@"$2":~/
 
 else
-	scp -o StrictHostKeyChecking=no -i $ssh_key_path $file_path $username@$sever_ip:~/
+	scp -i "$4" -o StrictHostKeyChecking=no "$1" "$3"@"$2":~/
 
 fi
 
