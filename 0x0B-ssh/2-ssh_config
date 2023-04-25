@@ -1,6 +1,6 @@
 Host your-server
     Hostname 52.91.209.228
-    User spicam
+    User ubuntu
     IdentityFile ~/.ssh/school
     PreferredAuthentications publickey
     PasswordAuthentication no
