@@ -1,16 +1,22 @@
 #!/usr/bin/env bash
 # transfers a file from a client to a server with scp
 
-#check if parameters is less than 4
-if [ "$#" -lt 4 ]; then
-	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
-	exit 1
-fi
-
 #Assign parameters to varibles
 file_path = $1
 server_ip = $2
 username = $3
 ssh_key_path = $4
 
-scp -i -o StrictHostKeyChecking=no $ssh_key_path $file_path $username@$sever_ip:~/
+#check if parameters is less than 3
+if [ "$#" -lt 3 ]; then
+	echo "Usage: 0-transfer_file PATH_TO_FILE IP USERNAME PATH_TO_SSH_KEY"
+
+#check if parameter is greater 3 but less than 4
+elif [ "$#" -lt 4 ]; then
+	scp -o StrictHostKeyChecking=no $file_path $username@$sever_ip:~/
+
+else
+	scp -o StrictHostKeyChecking=no -i $ssh_key_path $file_path $username@$sever_ip:~/
+
+fi
+
