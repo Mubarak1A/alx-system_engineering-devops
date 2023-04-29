@@ -1,5 +1,5 @@
 Host your-server
-    Hostname 52.91.209.228
+    Hostname 100.24.240.240
     User ubuntu
     IdentityFile ~/.ssh/school
     PreferredAuthentications publickey
