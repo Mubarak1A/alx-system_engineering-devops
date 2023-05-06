@@ -18,3 +18,4 @@ s/location \/ {\n.*}/&\n    location \/redirect_me {\n        return 301 https:\
 
 sudo service nginx restart
 
+
