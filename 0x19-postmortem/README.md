@@ -1,6 +1,6 @@
 # Postmortem: Outage Incident on June 15, 2023
 
-<img src="./images" alt="The outages incident image">
+<img src="./images.jpeg" alt="The outages incident image">
 
 # Issue Summary:
 
