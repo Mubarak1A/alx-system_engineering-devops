@@ -1,5 +1,7 @@
 # Postmortem: Outage Incident on June 15, 2023
 
+<img src="https://www.google.com/search?q=apache+virtual+host+Outage+Incident&tbm=isch&ved=2ahUKEwiUlJqky8f_AhXDrycCHWd1ALAQ2-cCegQIABAC#imgrc=np3ubugNr4o2dM" alt="The outages incident image">
+
 # Issue Summary:
 
 Duration: June 15, 2023, 9:00 AM - 11:30 AM (PST)
