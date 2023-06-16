@@ -8,7 +8,7 @@ Impact: Slow response times and intermittent errors on Apache web server
 
 Root Cause: Misconfigured Apache virtual host configuration file
 
-**Timeline:**
+# Timeline:
 
 - 9:00 AM: Issue detected as users reported slow response times and occasional "500 Internal Server Error" messages.
 
@@ -42,13 +42,13 @@ Root Cause: Misconfigured Apache virtual host configuration file
 
 - 11:30 AM: Incident resolved, and the system stabilized.
 
-**Root Cause and Resolution:**
+# Root Cause and Resolution:
 
 The root cause of the outage was a misconfigured virtual host in the Apache web server configuration file. The misconfiguration led to slow response times and intermittent "500 Internal Server Error" messages.
 
 To resolve the issue, the virtual host configuration file was manually inspected, and the misconfigured directives were corrected. Additionally, a conflicting directive was identified and removed from the virtual host file, ensuring proper configuration.
 
-**Corrective and Preventative Measures:**
+# Corrective and Preventative Measures:
 
 To prevent similar incidents and improve the overall stability of the web server, the following measures will be taken:
 
@@ -62,7 +62,7 @@ To prevent similar incidents and improve the overall stability of the web server
 
 5. Standardized Configuration Practices: Establish and enforce standardized practices for configuring virtual hosts and other Apache settings to minimize human error.
 
-Tasks to address the issue:
+# Tasks to address the issue:
 
 - Implement automated configuration validation checks during deployment.
 
